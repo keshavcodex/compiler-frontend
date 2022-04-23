@@ -99,7 +99,7 @@ h4 {
 }
 
 .rotate {
-  animation: rotation 0.3s 10;
+  animation: rotation 0.3s 50;
 }
 @keyframes rotation {
   from {
