@@ -2,7 +2,7 @@
   max-height: 100vh;
   width: 100%;
   overflow-y: hidden;
-  background-color: #474747;
+  background-color: #92a5a8;
 }
 .main {
   display: flex;
@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   background-color: #242424;
-  border-left: 3px solid #1f65e6;
+  border-left: 3px solid #fff;
   padding: 5px;
 }
 .input-box {
@@ -55,7 +55,7 @@
   font-size: 22px;
   font-weight: bold;
   color: white;
-  background-color: #1f65e6;
+  background-color: #f10000;
   border: none;
   border-radius: 4px;
   transition: 0.3s;
@@ -66,7 +66,7 @@
   white-space: pre-wrap;
 }
 h4 {
-  color: #afec3f;
+  color: #48e2ef;
 }
 #code-inp {
   box-sizing: border-box;
@@ -88,7 +88,7 @@ h4 {
   height: 40px;
   font-size: 22px;
   font-weight: bold;
-  background-color: #afec3f;
+  background-color: #ff9900;
   border: none;
   border-radius: 4px;
   transition: 0.3s;

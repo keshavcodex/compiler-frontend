@@ -4,8 +4,9 @@
   padding-left: 20px;
   height: 50px;
   text-align: center;
-  color: #afec3f;
-  background-color: #474747;
+  font-weight: bolder;
+  color: #000;
+  background-color: #48e2ef;
   gap: 20px;
 }
 #no {
@@ -13,7 +14,7 @@
   width: 80px;
   font-size: 16px;
   color: rgb(185, 185, 185);
-  border: 1px solid #afec3f;
+  border: 1px solid #f317f3;
   border-radius: 4px;
   background-color: #474747;
 }
@@ -23,9 +24,9 @@
 .css-2b097c-container {
   width: 120px;
   color: black;
-  background-color: #474747;
+  background-color: #d60909;
 }
 .css-yk16xz-control {
-  background-color: #474747 !important;
-  border-color: #afec3f !important;
+  background-color: #15a308 !important;
+  border-color: #ff9900 !important;
 }
