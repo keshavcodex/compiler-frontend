@@ -1,0 +1,19 @@
+language: generic
+
+os:
+  - linux
+
+services:
+  - docker
+
+deploy:
+  provider: elasticbeanstalk
+  region: "ap-south-1"
+  app: "my-compiler"
+  env: "mycompiler-env"
+  bucket_name: "elasticbeanstalk-ap-south-1-414532103186"
+  bucket_path: "my-compiler"
+  on:
+    branch: main
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
